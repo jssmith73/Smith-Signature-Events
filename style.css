@@ -1,0 +1,33 @@
+body {
+    background-color: beige;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    background-color: salmon;
+    padding: 5px;
+}
+
+/* Body */
+
+.body {
+    border: solid;
+    margin: 10px;
+    height: 400px;
+}
+
+#filler {
+    display: flex;
+    justify-content: center;
+}
+
+#img {
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    
+}
