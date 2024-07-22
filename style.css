@@ -8,8 +8,23 @@ body {
 }
 
 .navbar {
+    border: solid black ;
     background-color: salmon;
-    padding: 5px;
+    margin: 15px;
+}
+
+li {
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+.page-links {
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    padding: 10px;
+    font-style: bold;
 }
 
 /* Body */
@@ -30,4 +45,13 @@ body {
     display: flex;
     justify-content: center;
     
+}
+
+.site-section {
+    margin: 40px;
+}
+
+.section-header {
+    display: flex;
+    justify-content: center;
 }
