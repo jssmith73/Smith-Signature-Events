@@ -1,5 +1,11 @@
 body {
     background-color: beige;
+    margin-bottom: 40px;
+}
+
+.body {
+    margin: 200px;
+    font-family: "Baskervville SC", serif;
 }
 
 #title {
@@ -8,9 +14,9 @@ body {
 }
 
 .navbar {
-    border: solid black ;
     background-color: salmon;
-    margin: 15px;
+    margin-bottom: 15px;
+    width: 100%;
 }
 
 li {
@@ -30,7 +36,6 @@ li {
 /* Body */
 
 .body {
-    border: solid;
     margin: 10px;
     height: 400px;
 }
@@ -49,9 +54,20 @@ li {
 
 .site-section {
     margin: 40px;
+    border: solid;
+    background-color:darkcyan;
+    padding: 25px;
+    box-shadow: 100%;
 }
 
 .section-header {
     display: flex;
-    justify-content: center;
+    justify-content: start;
+    font-size: 50px;
+}
+
+/* Footer */
+
+footer {
+    margin: 400px;
 }
