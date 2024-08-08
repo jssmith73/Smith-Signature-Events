@@ -1,7 +1,7 @@
 var app = angular.module("myApp", []);
 
 app.controller("header-control", function($scope) {
-$scope.firstname = "Josiah";
+$scope.firstname = "Josah";
 $scope.lastname = "Smith";
 console.log('Header parsed')
 });

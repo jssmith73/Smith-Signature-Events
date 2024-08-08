@@ -2,6 +2,7 @@
 <html lang="en" ng-app = "myApp">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smith Signature Events</title>
@@ -15,10 +16,9 @@
 
 <body>
     <!-- Header -->
-    <header class="navbar" ng-app="header" ng-controller="header-control" ng-init = "myHeader = 'blue'" style="background-color: {{myHeader}};">
-        {{firstname + ' ' + lastname}}
+    <header ng-app="header" ng-init="companyName='Smith Signature Events" ng-controller="header-control">
         <p id="test"></p>
-        <h2 id="title">Smith Signature Events</h2>
+        <h2 id="title">{{companyName}}</h2>
         <ul class="page-links">
             <li><a href="#packages">Packages</a></li>
             <li><a href="#about">About</a></li>
@@ -58,15 +58,15 @@
 
     </div>
 
-    <div>
-        <h1>Contact</h1>
-        <p></p>
-    </div>
+    <footer>
+        <h1></h1>
+    </footer>
+    
 
 </body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
-<script src="js\app.js"></script>
+<script src="js\angular.js"></script>
 
 <script>
     var app = angular.module("header", []);

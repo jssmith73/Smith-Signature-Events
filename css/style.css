@@ -14,7 +14,7 @@ body {
 }
 
 .navbar {
-    background-color: salmon;
+    background-color: rgb(250, 207, 114);
     margin-bottom: 15px;
     width: 100%;
 }
@@ -58,12 +58,15 @@ li {
     background-color:darkcyan;
     padding: 25px;
     box-shadow: 100%;
+    margin-bottom: 200px;
+
 }
 
 .section-header {
     display: flex;
     justify-content: start;
     font-size: 50px;
+    height: 400px;
 }
 
 /* Footer */
